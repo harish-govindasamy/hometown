@@ -74,6 +74,7 @@ body {
     width: 140px;
     height: 140px;
     border-radius: 50%;
+    border: 6px solid #457B9D;
 }
 
 .guide-section {
@@ -83,7 +84,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #1D3557;
-    text-shadow: 0px 0px 1px black;
+    text-shadow: 0px 0px 1px #000000;
     letter-spacing: 2px;
     margin:50px 0px 50px 0px;
 }
