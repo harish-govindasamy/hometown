@@ -68,6 +68,8 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .activity img {
@@ -77,6 +79,10 @@ body {
     border: 6px solid #457B9D;
 }
 
+.activity img:hover {
+        transform: translateY(-8px) scale(1.03);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
 .guide-section {
     background-color: white;
     padding: 50px 0px 5px 0px;
@@ -98,8 +104,14 @@ body {
     width: 800px;
     border-radius: 15px;
     border-bottom: 10px solid #1D3557 ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
+.guide-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
 .guide-img {
     /* border: 2px dotted red; */
     width: 250px;
